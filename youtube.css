@@ -1,0 +1,224 @@
+  /* reset */
+  * {
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  /* header */
+
+  img {
+    padding-left: 15em:
+  }
+
+  body {
+    background-color: #2B3031;
+  }
+  header {
+    background-color: white;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  header .my-list {
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+  }
+
+
+  [class="fa fa-caret-down"] {
+    padding-left: .75em;
+    padding-top: .8em;
+  }
+
+  .user {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: .75em;
+    padding-right: 2em;
+    color: grey;
+    font-weight: bold;
+  }
+
+  [placeholder="     Search"]{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .SearchBar {
+       top: 30em;
+       left: 575px;
+       padding-left: 5em;
+       padding-top: 1.5em
+  }
+
+  .SearchBar input {
+       height: 30px;
+       width: 30em;
+       border-style: none;
+  }
+
+  .top-right {
+    margin-left: 24em;
+  }
+
+  .user_app {
+
+  margin-left: 5em;
+  }
+
+  .apps {
+    padding-top: .75em;
+    padding-right: 1em;
+  }
+
+  .upload {
+  background-color: red;
+  font-weight: bold;
+  height: 112%;
+  width: 140%;
+  display: flex;
+  }
+
+
+
+
+  header {
+    background: white;
+  }
+
+  header a, header a:visited, header a:active {
+    color: grey;
+  }
+
+  header a:hover {
+    color: lightgrey;
+  }
+
+  header .my-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  header li {
+    padding: 0.5em 0 0.5em 1em;
+  }
+
+  /* Main */
+
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+    .left {
+      width: 20vw;
+      /* border: 1px solid red; */
+      height: 100vh;
+    }
+
+    .center {
+      width: 60vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* border: 1px solid red; */
+      background-color: #212527;
+    }
+
+    .center .video {
+      height: 50vh;
+      background-color: #212527;
+    }
+
+    .undervid {
+        /* border: 1px solid red; */
+        margin-top: 3em;
+    }
+
+     .comments {
+      background-color: white;
+      /* border: 1px solid red; */
+      width: 60vw;
+      height: 30vh;
+      text-align: center;
+      padding-top: 5em;
+    }
+
+    .comment_bottom {
+      background-color: white;
+      /* border: 1px solid red; */
+      width: 60vw;
+      height: 30vh;
+      text-align: center;
+
+    }
+
+    .comments h1 {
+      color: #2072B3;
+      padding-right: 10em;
+    }
+
+    .comments p {
+      padding-right: 10em;
+    }
+
+    .comment_bottom h1 {
+      color: #2072B3;
+      padding-right: 10em;
+    }
+
+    .right {
+      width: 20vw;
+      /* border: 1px solid red; */
+      height: 100vh;
+    }
+
+  .guide {
+    background-color: #2B3031;
+    padding-top: 5em;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    height: 50vh;
+  }
+
+  .subs {
+    background-color: #2B3031;
+  padding-top: 5em;
+  /* border: 1px solid red; */
+  }
+
+
+  iframe {
+    background-color: #2B3031;
+      /* border: 1px solid red; */
+      margin-top: 3em;
+    /* float: right; */
+
+
+  }
+
+
+  .undervid li{
+    list-style-type: none;
+    display: inline;
+    }
+
+  }
+
+/* [href="search icon"] {
+  padding-left: 2em;
+} */
